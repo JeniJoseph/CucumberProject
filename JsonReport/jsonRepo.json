@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To check the userid and password of the facebook element",
+        "description": "",
+        "id": "to-check-the-functionality-of-facebook-elements;to-check-the-userid-and-password-of-the-facebook-element",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7131769100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Need to launch the browse and maximize the app",
+            "match": {
+              "location": "FacebookClass.need_to_launch_the_browse_and_maximize_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2014284000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set the url",
+            "match": {
+              "location": "FacebookClass.set_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210146200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Set the user id",
+            "match": {
+              "location": "FacebookClass.set_the_user_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164762700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Set the password",
+            "match": {
+              "location": "FacebookClass.set_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126299300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login the fb",
+            "match": {
+              "location": "FacebookClass.login_the_fb()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the app",
+            "match": {
+              "location": "FacebookClass.close_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check the functionality of facebook elements",
+    "description": "",
+    "id": "to-check-the-functionality-of-facebook-elements",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]

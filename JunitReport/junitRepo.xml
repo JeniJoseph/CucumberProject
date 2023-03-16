@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.710316">
+<testcase classname="To check the functionality of facebook elements" name="To check the userid and password of the facebook element" time="22.710316">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinition.FacebookClass.set_the_password(FacebookClass.java:32)&#13;&#10;&#9;at ✽.Set the password(src/test/resources/Facebook.feature:7)&#13;&#10;"><![CDATA[When Set the url............................................................passed
+And Set the user id.........................................................passed
+And Set the password........................................................failed
+And Login the fb............................................................skipped
+Then close the app..........................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinition.FacebookClass.set_the_password(FacebookClass.java:32)
+	at ✽.Set the password(src/test/resources/Facebook.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
