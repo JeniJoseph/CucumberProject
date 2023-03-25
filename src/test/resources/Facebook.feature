@@ -6,4 +6,6 @@
     And Set the user id
     And Set the password
     And Login the fb
+    And wait the TomJerry profile
     Then close the app
+    
